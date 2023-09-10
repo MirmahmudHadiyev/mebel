@@ -1,0 +1,41 @@
+* {
+  font-family: "Poppins-Regular";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 0;
+  border: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.center {
+  width: 100% !important;
+}
+
+.full_w {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+.justify_between {
+  justify-content: space-between;
+}
+
+.align_center {
+  align-items: center;
+}/*# sourceMappingURL=reset.css.map */

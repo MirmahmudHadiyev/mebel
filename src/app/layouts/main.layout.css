@@ -1,0 +1,86 @@
+.header-dropdown-menu {
+  background: #ffffff;
+  border: 1px solid #d9e3ec !important;
+  box-sizing: border-box;
+  border-radius: 10px !important;
+  padding: 13px 0px !important;
+  right: 20px;
+}
+.header-dropdown-menu.companies_drop_down {
+  width: 354px !important;
+}
+.header-dropdown-menu__tooltip .ant-tooltip-content {
+  width: 250px;
+  border-radius: 10px;
+  padding: 8px 9px 6px 13px;
+}
+.header-dropdown-menu__tooltip .ant-tooltip-content .ant-tooltip-inner {
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  text-align: center;
+}
+.header-dropdown-menu .ant-dropdown-menu-title-content {
+  flex: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header-dropdown-menu .ant-dropdown-menu-title-content a {
+  width: 292px;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 17px;
+}
+.header-dropdown-menu .ant-dropdown-menu-title-content .ant-btn {
+  border: none;
+  background-color: transparent;
+}
+.header-dropdown-menu .ant-dropdown-menu-item {
+  height: 32px;
+}
+.header-dropdown-menu .ant-dropdown-menu-item:hover {
+  color: #000;
+  background: #015cd1;
+}
+.header-dropdown-menu .ant-dropdown-menu-item:hover .startIcon path {
+  fill: #015cd1;
+  stroke: #fff;
+}
+.header-dropdown-menu .ant-dropdown-menu-item.active:hover .starIcoActive path {
+  fill: #fff;
+  stroke: #fff;
+}
+.header-dropdown-menu .ant-dropdown-menu-title-content a {
+  font-size: 12px;
+  line-height: 15px;
+  color: #223142;
+  font-family: "Gilroy-Medium";
+}
+
+.user-data {
+  font-family: "Gilroy-Regular";
+  font-size: 12px;
+  line-height: 14px;
+  color: #747a83;
+  text-align: left;
+  margin: 2px 0px;
+}
+.user-data svg {
+  margin: auto auto auto 10px;
+}
+.user-data p {
+  font-family: "Gilroy-Medium";
+  line-height: 17px;
+}
+
+.header-button--group .transparent {
+  width: 32px !important;
+}
+
+.header-dropdown-menu__tooltip .ant-tooltip-arrow {
+  top: -8px !important;
+}
+.header-dropdown-menu__tooltip .ant-tooltip-arrow .ant-tooltip-arrow-content {
+  width: 20px;
+  top: 0px;
+}/*# sourceMappingURL=main.layout.css.map */
